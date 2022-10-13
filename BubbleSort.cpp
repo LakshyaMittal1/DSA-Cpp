@@ -1,5 +1,6 @@
 // Online C++ compiler to run C++ program online
 // BUBBLE SORT
+
 #include <iostream>
 using namespace std;
 
@@ -8,8 +9,6 @@ void printarray(int arr[], int size){
         cout << arr[i] << " ";
     }
 }
-
-
 
 void bubblesort(int arr[], int size){
     
@@ -46,7 +45,6 @@ int main() {
     }
     
     bubblesort(arr, size);
-    
     
     cout << "Sorted array after implementing Bubble Sort is:- ";
     printarray(arr, size);
